@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": false,
+        "activityBarBadge.background": "#3b3b3b",
+        "activityBarBadge.foreground": false,
+        "statusBar.background": "#252525",
+        "statusBar.foreground": false
+    }
+}

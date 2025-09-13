@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF7157CC2E77053E008F20D9 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = AF7157CB2E77053E008F20D9 /* HotKey */; };
+		AF7158D02E836F3A008F20D9 /* kgutil in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF7158992E836A1C008F20D9 /* kgutil */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF7157A12E75DF73008F20D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7157872E75DF72008F20D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF71578E2E75DF72008F20D9;
+			remoteInfo = kindaGlue;
+		};
+		AF7157AB2E75DF73008F20D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7157872E75DF72008F20D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF71578E2E75DF72008F20D9;
+			remoteInfo = kindaGlue;
+		};
+		AF7158B22E836A61008F20D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7157872E75DF72008F20D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF71578E2E75DF72008F20D9;
+			remoteInfo = kindaGlue;
+		};
+		AF7158E42E839683008F20D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7157872E75DF72008F20D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7158982E836A1C008F20D9;
+			remoteInfo = kgutil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF7158972E836A1C008F20D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AF7158C02E836A61008F20D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7158CF2E836F2E008F20D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				AF7158D02E836F3A008F20D9 /* kgutil in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7158D52E836F7B008F20D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF71578F2E75DF72008F20D9 /* kindaGlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kindaGlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7157A02E75DF73008F20D9 /* kindaGlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kindaGlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7157AA2E75DF73008F20D9 /* kindaGlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kindaGlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7157BE2E75E219008F20D9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AF7158992E836A1C008F20D9 /* kgutil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kgutil; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7158AE2E836A61008F20D9 /* AXUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AF7157C12E75E42D008F20D9 /* Exceptions for "kindaGlue" folder in "kindaGlue" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.vscode/settings.json,
+				Info.plist,
+			);
+			target = AF71578E2E75DF72008F20D9 /* kindaGlue */;
+		};
+		AF7158F92E8A9789008F20D9 /* Exceptions for "kgutil" folder in "kindaGlue" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MenuItemManipulator.swift,
+				UIElementManipulator.swift,
+			);
+			target = AF71578E2E75DF72008F20D9 /* kindaGlue */;
+		};
+		AF7158FA2E8A9789008F20D9 /* Exceptions for "kgutil" folder in "kindaGlueTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MenuItemManipulator.swift,
+				UIElementManipulator.swift,
+			);
+			target = AF71579F2E75DF73008F20D9 /* kindaGlueTests */;
+		};
+		AF7158FB2E8A9789008F20D9 /* Exceptions for "kgutil" folder in "kindaGlueUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MenuItemManipulator.swift,
+				UIElementManipulator.swift,
+			);
+			target = AF7157A92E75DF73008F20D9 /* kindaGlueUITests */;
+		};
+		AF7158FC2E8A9789008F20D9 /* Exceptions for "kgutil" folder in "AXUtilsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MenuItemManipulator.swift,
+				UIElementManipulator.swift,
+			);
+			target = AF7158AD2E836A61008F20D9 /* AXUtilsTests */;
+		};
+		AF7158FD2E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "kindaGlueTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Logger.swift,
+			);
+			target = AF71579F2E75DF73008F20D9 /* kindaGlueTests */;
+		};
+		AF7158FE2E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "kindaGlueUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Logger.swift,
+			);
+			target = AF7157A92E75DF73008F20D9 /* kindaGlueUITests */;
+		};
+		AF7158FF2E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "kgutil" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Logger.swift,
+			);
+			target = AF7158982E836A1C008F20D9 /* kgutil */;
+		};
+		AF7159002E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "AXUtilsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Logger.swift,
+			);
+			target = AF7158AD2E836A61008F20D9 /* AXUtilsTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF7157912E75DF72008F20D9 /* kindaGlue */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AF7157C12E75E42D008F20D9 /* Exceptions for "kindaGlue" folder in "kindaGlue" target */,
+				AF7158FD2E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "kindaGlueTests" target */,
+				AF7158FE2E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "kindaGlueUITests" target */,
+				AF7158FF2E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "kgutil" target */,
+				AF7159002E8A978F008F20D9 /* Exceptions for "kindaGlue" folder in "AXUtilsTests" target */,
+			);
+			path = kindaGlue;
+			sourceTree = "<group>";
+		};
+		AF7157A32E75DF73008F20D9 /* kindaGlueTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = kindaGlueTests;
+			sourceTree = "<group>";
+		};
+		AF7157AD2E75DF73008F20D9 /* kindaGlueUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = kindaGlueUITests;
+			sourceTree = "<group>";
+		};
+		AF71589A2E836A1C008F20D9 /* kgutil */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AF7158F92E8A9789008F20D9 /* Exceptions for "kgutil" folder in "kindaGlue" target */,
+				AF7158FA2E8A9789008F20D9 /* Exceptions for "kgutil" folder in "kindaGlueTests" target */,
+				AF7158FB2E8A9789008F20D9 /* Exceptions for "kgutil" folder in "kindaGlueUITests" target */,
+				AF7158FC2E8A9789008F20D9 /* Exceptions for "kgutil" folder in "AXUtilsTests" target */,
+			);
+			path = kgutil;
+			sourceTree = "<group>";
+		};
+		AF7159032E8A9C27008F20D9 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF71578C2E75DF72008F20D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7157CC2E77053E008F20D9 /* HotKey in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF71579D2E75DF73008F20D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7157A72E75DF73008F20D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7158962E836A1C008F20D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7158AB2E836A61008F20D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7157862E75DF72008F20D9 = {
+			isa = PBXGroup;
+			children = (
+				AF7157912E75DF72008F20D9 /* kindaGlue */,
+				AF7157A32E75DF73008F20D9 /* kindaGlueTests */,
+				AF7157AD2E75DF73008F20D9 /* kindaGlueUITests */,
+				AF71589A2E836A1C008F20D9 /* kgutil */,
+				AF7159032E8A9C27008F20D9 /* Shared */,
+				AF7157BD2E75E219008F20D9 /* Frameworks */,
+				AF7157902E75DF72008F20D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7157902E75DF72008F20D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF71578F2E75DF72008F20D9 /* kindaGlue.app */,
+				AF7157A02E75DF73008F20D9 /* kindaGlueTests.xctest */,
+				AF7157AA2E75DF73008F20D9 /* kindaGlueUITests.xctest */,
+				AF7158992E836A1C008F20D9 /* kgutil */,
+				AF7158AE2E836A61008F20D9 /* AXUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7157BD2E75E219008F20D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7157BE2E75E219008F20D9 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF71578E2E75DF72008F20D9 /* kindaGlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7157B42E75DF73008F20D9 /* Build configuration list for PBXNativeTarget "kindaGlue" */;
+			buildPhases = (
+				AF71578B2E75DF72008F20D9 /* Sources */,
+				AF71578C2E75DF72008F20D9 /* Frameworks */,
+				AF71578D2E75DF72008F20D9 /* Resources */,
+				AF7158C02E836A61008F20D9 /* Embed Frameworks */,
+				AF7158CF2E836F2E008F20D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7158E52E839683008F20D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF7157912E75DF72008F20D9 /* kindaGlue */,
+				AF7159032E8A9C27008F20D9 /* Shared */,
+			);
+			name = kindaGlue;
+			packageProductDependencies = (
+				AF7157CB2E77053E008F20D9 /* HotKey */,
+			);
+			productName = kindaGlue;
+			productReference = AF71578F2E75DF72008F20D9 /* kindaGlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF71579F2E75DF73008F20D9 /* kindaGlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7157B72E75DF73008F20D9 /* Build configuration list for PBXNativeTarget "kindaGlueTests" */;
+			buildPhases = (
+				AF71579C2E75DF73008F20D9 /* Sources */,
+				AF71579D2E75DF73008F20D9 /* Frameworks */,
+				AF71579E2E75DF73008F20D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7157A22E75DF73008F20D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF7157A32E75DF73008F20D9 /* kindaGlueTests */,
+				AF7159032E8A9C27008F20D9 /* Shared */,
+			);
+			name = kindaGlueTests;
+			packageProductDependencies = (
+			);
+			productName = kindaGlueTests;
+			productReference = AF7157A02E75DF73008F20D9 /* kindaGlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF7157A92E75DF73008F20D9 /* kindaGlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7157BA2E75DF73008F20D9 /* Build configuration list for PBXNativeTarget "kindaGlueUITests" */;
+			buildPhases = (
+				AF7157A62E75DF73008F20D9 /* Sources */,
+				AF7157A72E75DF73008F20D9 /* Frameworks */,
+				AF7157A82E75DF73008F20D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7157AC2E75DF73008F20D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF7157AD2E75DF73008F20D9 /* kindaGlueUITests */,
+				AF7159032E8A9C27008F20D9 /* Shared */,
+			);
+			name = kindaGlueUITests;
+			packageProductDependencies = (
+			);
+			productName = kindaGlueUITests;
+			productReference = AF7157AA2E75DF73008F20D9 /* kindaGlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AF7158982E836A1C008F20D9 /* kgutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF71589D2E836A1C008F20D9 /* Build configuration list for PBXNativeTarget "kgutil" */;
+			buildPhases = (
+				AF7158952E836A1C008F20D9 /* Sources */,
+				AF7158962E836A1C008F20D9 /* Frameworks */,
+				AF7158972E836A1C008F20D9 /* CopyFiles */,
+				AF7158D52E836F7B008F20D9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF71589A2E836A1C008F20D9 /* kgutil */,
+				AF7159032E8A9C27008F20D9 /* Shared */,
+			);
+			name = kgutil;
+			packageProductDependencies = (
+			);
+			productName = kgutil;
+			productReference = AF7158992E836A1C008F20D9 /* kgutil */;
+			productType = "com.apple.product-type.tool";
+		};
+		AF7158AD2E836A61008F20D9 /* AXUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7158C12E836A61008F20D9 /* Build configuration list for PBXNativeTarget "AXUtilsTests" */;
+			buildPhases = (
+				AF7158AA2E836A61008F20D9 /* Sources */,
+				AF7158AB2E836A61008F20D9 /* Frameworks */,
+				AF7158AC2E836A61008F20D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7158B32E836A61008F20D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF7159032E8A9C27008F20D9 /* Shared */,
+			);
+			name = AXUtilsTests;
+			packageProductDependencies = (
+			);
+			productName = AXUtilsTests;
+			productReference = AF7158AE2E836A61008F20D9 /* AXUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7157872E75DF72008F20D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AF71578E2E75DF72008F20D9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AF71579F2E75DF73008F20D9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF71578E2E75DF72008F20D9;
+					};
+					AF7157A92E75DF73008F20D9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF71578E2E75DF72008F20D9;
+					};
+					AF7158982E836A1C008F20D9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AF7158AD2E836A61008F20D9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF71578E2E75DF72008F20D9;
+					};
+				};
+			};
+			buildConfigurationList = AF71578A2E75DF72008F20D9 /* Build configuration list for PBXProject "kindaGlue" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7157862E75DF72008F20D9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AF7157CA2E77053E008F20D9 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF7157902E75DF72008F20D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF71578E2E75DF72008F20D9 /* kindaGlue */,
+				AF71579F2E75DF73008F20D9 /* kindaGlueTests */,
+				AF7157A92E75DF73008F20D9 /* kindaGlueUITests */,
+				AF7158982E836A1C008F20D9 /* kgutil */,
+				AF7158AD2E836A61008F20D9 /* AXUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF71578D2E75DF72008F20D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF71579E2E75DF73008F20D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7157A82E75DF73008F20D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7158AC2E836A61008F20D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF71578B2E75DF72008F20D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF71579C2E75DF73008F20D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7157A62E75DF73008F20D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7158952E836A1C008F20D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7158AA2E836A61008F20D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF7157A22E75DF73008F20D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF71578E2E75DF72008F20D9 /* kindaGlue */;
+			targetProxy = AF7157A12E75DF73008F20D9 /* PBXContainerItemProxy */;
+		};
+		AF7157AC2E75DF73008F20D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF71578E2E75DF72008F20D9 /* kindaGlue */;
+			targetProxy = AF7157AB2E75DF73008F20D9 /* PBXContainerItemProxy */;
+		};
+		AF7158B32E836A61008F20D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF71578E2E75DF72008F20D9 /* kindaGlue */;
+			targetProxy = AF7158B22E836A61008F20D9 /* PBXContainerItemProxy */;
+		};
+		AF7158E52E839683008F20D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7158982E836A1C008F20D9 /* kgutil */;
+			targetProxy = AF7158E42E839683008F20D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF7157B22E75DF73008F20D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF7157B32E75DF73008F20D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AF7157B52E75DF73008F20D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kindaGlue/kindaGlue.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kindaGlue/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = kindaGlue;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF7157B62E75DF73008F20D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kindaGlue/kindaGlue.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kindaGlue/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = kindaGlue;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AF7157B82E75DF73008F20D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.kindaGlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindaGlue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kindaGlue";
+			};
+			name = Debug;
+		};
+		AF7157B92E75DF73008F20D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.kindaGlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindaGlue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kindaGlue";
+			};
+			name = Release;
+		};
+		AF7157BB2E75DF73008F20D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.kindaGlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kindaGlue;
+			};
+			name = Debug;
+		};
+		AF7157BC2E75DF73008F20D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.kindaGlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kindaGlue;
+			};
+			name = Release;
+		};
+		AF71589E2E836A1C008F20D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = kgutil/kgutil.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = kgutil/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.kgutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF71589F2E836A1C008F20D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = kgutil/kgutil.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = kgutil/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.kgutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AF7158C22E836A61008F20D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.AXUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindaGlue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kindaGlue";
+			};
+			name = Debug;
+		};
+		AF7158C32E836A61008F20D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriturov.kindaGlue.AXUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindaGlue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kindaGlue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF71578A2E75DF72008F20D9 /* Build configuration list for PBXProject "kindaGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7157B22E75DF73008F20D9 /* Debug */,
+				AF7157B32E75DF73008F20D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7157B42E75DF73008F20D9 /* Build configuration list for PBXNativeTarget "kindaGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7157B52E75DF73008F20D9 /* Debug */,
+				AF7157B62E75DF73008F20D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7157B72E75DF73008F20D9 /* Build configuration list for PBXNativeTarget "kindaGlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7157B82E75DF73008F20D9 /* Debug */,
+				AF7157B92E75DF73008F20D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7157BA2E75DF73008F20D9 /* Build configuration list for PBXNativeTarget "kindaGlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7157BB2E75DF73008F20D9 /* Debug */,
+				AF7157BC2E75DF73008F20D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF71589D2E836A1C008F20D9 /* Build configuration list for PBXNativeTarget "kgutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF71589E2E836A1C008F20D9 /* Debug */,
+				AF71589F2E836A1C008F20D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7158C12E836A61008F20D9 /* Build configuration list for PBXNativeTarget "AXUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7158C22E836A61008F20D9 /* Debug */,
+				AF7158C32E836A61008F20D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF7157CA2E77053E008F20D9 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF7157CB2E77053E008F20D9 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF7157CA2E77053E008F20D9 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF7157872E75DF72008F20D9 /* Project object */;
+}
