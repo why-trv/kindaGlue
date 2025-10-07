@@ -48,6 +48,7 @@ final class Engine {
         kvWatcher.onModeChanged = kvModeChanged
         kvWatcher.start()
 
+        windowObserver.onFrontmostAppChanged = frontmostAppChanged
         windowObserver.onWindowChanged = windowChanged
 
         axWatcher.onAccessibilityChanged = accessibilityChanged
@@ -112,10 +113,12 @@ final class Engine {
         saveAppMode()
         updateOverlay()
     }
+    
+    private func frontmostAppChanged() {
+        recallAppMode()
+    }
 
     private func windowChanged() {
-        recallAppMode()
-
         let app = windowObserver.frontmostApp
 
         let frontmostApp = windowObserver.frontmostAppName

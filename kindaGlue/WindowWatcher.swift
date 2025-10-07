@@ -6,6 +6,7 @@ import OSLog
 class WindowWatcher {
 
     var onWindowChanged: (() -> Void)?
+    var onFrontmostAppChanged: (() -> Void)?
 
     private(set) var frontmostApp: NSRunningApplication?
     private(set) var overlayApp: NSRunningApplication?
@@ -176,10 +177,15 @@ class WindowWatcher {
             || newOverlay != overlayApp
             || newWindowIdentifier != frontmostWindowIdentifier
         {
+            let frontmostAppChanged = newApp != frontmostApp
+            
             frontmostApp = newApp
             overlayApp = newOverlay
             frontmostWindowIdentifier = newWindowIdentifier
 
+            if (frontmostAppChanged) {
+                onFrontmostAppChanged?()
+            }
             onWindowChanged?()
         }
     }
