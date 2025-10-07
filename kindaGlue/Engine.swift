@@ -170,8 +170,11 @@ final class Engine {
         let mode = appModeKeeper.loadMode(app: windowObserver.frontmostApp)
         kvWatcher.assumeMode(mode)
 
-        if mode == .normal {
+        if mode == .normal || mode == .visual {
             kvWatcher.sendNormalModeShortcut()
+        }
+        if mode == .visual {
+            kvWatcher.sendVisualModeShortcut()
         }
 
         updateOverlay()

@@ -30,9 +30,9 @@ final class KindaVim {
     /// The path to the UserDefaults plist file
     static let plistPath = ("~/Library/Preferences/mo.com.sleeplessmind.kindaVim.plist" as NSString)
         .expandingTildeInPath
-    // Normal mode shortcut (Ctrl-[)
     // MAYBE: Get it from kindaVim UserDefaults
     static let normalModeShortcut = Config.kindaVimNormalModeShortcut
+    static let visualModeShortcut = Config.kindaVimVisualModeShortcut
 
     /// Closure to call when file changes
     var onModeChanged: ((Mode) -> Void)?
@@ -93,6 +93,10 @@ final class KindaVim {
 
     func sendNormalModeShortcut() {
         Self.normalModeShortcut.post()
+    }
+    
+    func sendVisualModeShortcut() {
+        Self.visualModeShortcut.post()
     }
 
     func family(for app: NSRunningApplication) -> Family {

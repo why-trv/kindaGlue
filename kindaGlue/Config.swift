@@ -30,7 +30,10 @@ struct Config {
         "Homerow"
     ]
 
+    // Ctrl-[
     static let kindaVimNormalModeShortcut = OutgoingShortcutDefinition(key: 33, modifiers: .maskControl)
+    // v
+    static let kindaVimVisualModeShortcut = OutgoingShortcutDefinition(key: 8, modifiers: CGEventFlags())
 
     /// ZMK layer 'detection' hotkeys
     struct ZMKLayers {
