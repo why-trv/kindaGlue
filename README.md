@@ -10,6 +10,10 @@
 
 - In many apps, you end up navigating quite a bit before you actually need to type something (if at all), yet you still have to perform modifier-key gymnastics to carry out the most common actions. Does it really have to be this way?
 
+## Demo
+
+I'd love to do a demo, but I don't see a way to screen-cast key presses **before** they are modified by Karabiner-Elements. If you have an idea on how this can be done, please let me know.
+
 ## What It Does
 
 - Observes windows and UI elements using accessibility (*AX*) APIs and sets variables for Karabiner-Elements to use, such as:
