@@ -33,7 +33,7 @@ struct Config {
     // Ctrl-[
     static let kindaVimNormalModeShortcut = OutgoingShortcutDefinition(key: 33, modifiers: .maskControl)
     // v
-    static let kindaVimVisualModeShortcut = OutgoingShortcutDefinition(key: 8, modifiers: CGEventFlags())
+    static let kindaVimVisualModeShortcut = OutgoingShortcutDefinition(key: 9, modifiers: CGEventFlags())
 
     /// ZMK layer 'detection' hotkeys
     struct ZMKLayers {
